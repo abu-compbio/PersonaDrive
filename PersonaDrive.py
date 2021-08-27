@@ -38,7 +38,7 @@ def calculate_pps(graphs,dataset,cancer):
     samples=[sample.split('_')[-1].replace('.gml','') for sample in os.listdir(graphs+dataset+"/"+cancer) if '.gml' in sample]
 
     #load graphs
-    O_data={}
+    D_data={}
     pbar = tqdm(total=len(os.listdir(graphs+dataset+"/"+cancer)))
     for i in os.listdir(graphs+dataset+"/"+cancer): # for each sample i in S
         pbar.update(1)
@@ -47,23 +47,23 @@ def calculate_pps(graphs,dataset,cancer):
 
             Bi = nx.read_gml(graphs+dataset+"/"+cancer+"/"+i) #load Bi graph
             # set of all outliers O_final in the second partition connected to M_i
-            O_Bi = [n for n, d in Bi.nodes(data=True) if d['bipartite']==1]
-            Oi=[]
+            D_Bi = [n for n, d in Bi.nodes(data=True) if d['bipartite']==1]
+            Di=[]
 
             # select onmy outliers that corresponds to samlpe_i
-            for o in O_Bi:
-                if o.split("_")[0]==sample:
-                    Oi.append(o.split("_")[1])
+            for v_d in D_Bi:
+                if v_d.split("_")[0]==sample:
+                    Di.append(v_d.split("_")[1])
 
-            O_data[sample]=set(Oi)
+            D_data[sample]=set(Di)
     pps=pd.DataFrame(0.0,columns=samples,index=samples)
     for i in pps: #for each sample i in S
-        O_i=O_data[i]
+        D_i=D_data[i]
         for j in pps: #for each sample i in S
-            O_j=O_data[j]
+            D_j=D_data[j]
             #calculate the similarity score
-            if len(O_i)*len(O_j)!=0:
-                pps[i][j]=math.pow(len(O_i.intersection(O_j)),2)/(len(O_i)*len(O_j))
+            if len(D_i)*len(D_j)!=0:
+                pps[i][j]=math.pow(len(D_i.intersection(D_j)),2)/(len(D_i)*len(D_j))
     pps.to_csv("results/"+dataset+"/"+cancer+"/pps_matrix.csv")
 
 # calculate influence scores

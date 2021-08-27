@@ -13,14 +13,14 @@ import pandas as pd
 import networkx as nx
 from networkx.algorithms import bipartite
 
-## Load muation matrix
-def load_outliers(file):
-    O_matrix = pd.read_csv(file, index_col=0,sep=",")
-    O_matrix=O_matrix.transpose()
-    O_matrix=O_matrix.rename(columns = {i:i.replace('.','-') for i in O_matrix})
-    return O_matrix
+## Load DEGs matrix
+def load_DEGs(file):
+    DEGs_matrix = pd.read_csv(file, index_col=0,sep=",")
+    DEGs_matrix=DEGs_matrix.transpose()
+    DEGs_matrix=DEGs_matrix.rename(columns = {i:i.replace('.','-') for i in DEGs_matrix})
+    return DEGs_matrix
 
-## Load outliers matrix
+## Load MUTATION matrix
 def load_mutations(file):
     M_matrix = pd.read_csv(file, index_col=0)
     M_matrix=M_matrix.rename(columns = {i:i.replace('.','-') for i in M_matrix})
@@ -72,15 +72,15 @@ def construct_PBNs(M,O,PPI,cancer,dataset):
     #genes is a set of genes in outliers dataset
     genes = O.index.tolist()
     #list of outliers
-    O_set= []
+    D_set= []
     for i in samples:
         pbar.update(1)
         for gene in genes:
             if i in O.columns:
                 if O[i][gene] == True:
                     # outliers are in form of: CCLEXXXX_TP53
-                    O_set.append(str(i+'_'+gene))
-    print("There are: ",len(O_set)," outliers.")
+                    D_set.append(str(i+'_'+gene))
+    print("There are: ",len(D_set)," outliers.")
     pbar.close()
 
 
@@ -97,7 +97,7 @@ def construct_PBNs(M,O,PPI,cancer,dataset):
             # initialize the bipartite networks B_i
             Bi = nx.Graph()
             Bi.add_nodes_from(M_dictionary[i], bipartite=0)
-            Bi.add_nodes_from(O_set, bipartite=1)
+            Bi.add_nodes_from(D_set, bipartite=1)
 
 
             pbar2=tqdm(total=len(M_dictionary[i]),leave=False)
@@ -105,14 +105,14 @@ def construct_PBNs(M,O,PPI,cancer,dataset):
             for u in Mi:
                 pbar2.update(1)
                 if u in PPI:
-                    for v in O_set:
-                        v_o = v.split('_')[1]
+                    for v in D_set:
+                        v_d = v.split('_')[1]
                         # check if the selected mutated gene is mutated in the sample of current outlier
                         if u in M_dictionary[v.split('_')[0]]:
-                            if v_o in PPI:
+                            if v_d in PPI:
                                 #check if outlier is a neighbor of the mutation
-                                if v_o in PPI[u]:
-                                    if v_o !=u:
+                                if v_d in PPI[u]:
+                                    if v_d !=u:
                                         Bi.add_edge(u,v)
 
 
@@ -153,27 +153,27 @@ if __name__ == "__main__":
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     ppi_file = data_folder+"ppi_dawnrank.csv"
     ppi = load_ppi(ppi_file)
-    print('network loaded...')
+    print('PPI network loaded...')
 
     #~~~~~~~~~~~~~Step 2：~~~~~~~~~~~~~~~~~~
     # load outliers data
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    O_matrix = load_outliers(data_folder+cancer+"_"+dataset+"/DEGs_data.csv")
-    print('outliers loaded...')
+    DEGs_matrix = load_DEGs(data_folder+cancer+"_"+dataset+"/DEGs_data.csv")
+    print('DEGs loaded...')
 
     #~~~~~~~~~~~~~Step 3：~~~~~~~~~~~~~~~~~~
     # load mutation data
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     M_matrix = load_mutations(data_folder+cancer+"_"+dataset+"/mutation_data.csv")
-    print('mutations loaded...')
+    print('Mutations loaded...')
 
     #~~~~~~~~~~~~~Step 4：~~~~~~~~~~~~~~~~~~
     # pre-process the matrices to contain only genes in the PPI
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    O_matrix=O_matrix.drop(index=[n for n in O_matrix.index if n not in ppi])
+    DEGs_matrix=DEGs_matrix.drop(index=[n for n in DEGs_matrix.index if n not in ppi])
     M_matrix=M_matrix.drop(index=[n for n in M_matrix.index if n not in ppi])
 
     #~~~~~~~~~~~~~Step 5：~~~~~~~~~~~~~~~~~~
     # construct the personalized networks
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    construct_PBNs(M_matrix,O_matrix,ppi,cancer,dataset)
+    construct_PBNs(M_matrix,DEGs_matrix,ppi,cancer,dataset)
