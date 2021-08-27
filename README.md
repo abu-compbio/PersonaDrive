@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ### 1. Personalized Bipartite Networks (PBNs)
 
-There are three files for the Personalized Bipartite Networks' (PBNs) construction: the Protein Protein Interaction (PPI) network edges file (DawnRank or STRING netowkrs), a binary matrix of dysregulated genes, and a binary matrix of mutated genes. Files for each cacner type are located in data folder.
+There are three input files for the Personalized Bipartite Networks' (PBNs) construction step: the Protein Protein Interaction (PPI) network edges file (DawnRank or STRING netowkrs), a binary matrix of dysregulated genes, and a binary matrix of mutated genes. Files for each cacner type are located in data folder.
 
 #### 1.1. PPI Networks:
 We employ two different interaction networks in our evaluations; the STRING network employed in
@@ -57,9 +57,7 @@ For this type of evaluations, we find the set of enriched KEGG or Reactome pathw
 
 ## **Run**
 
-There are two bash scripts, one for running the PersonDrive, the other for evaluation.
-
-For more details on the execution parameters please refer to the bash files.
+For more details on the execution parameters please refer to the python files.
 
 1. Constructing PBNs:
 
@@ -83,7 +81,7 @@ python evaluation.py -d TCGA -c COAD
 ## **Outputs**
 - The 'constructing_PBNs.py' script will construct the personalized bipartite networks (PBNs).
 
-- file 'PersonDrive.py' will output the personalized ranking for each sample in the chosen cancer type and dataset.  
+- The 'PersonDrive.py' script will output the personalized ranking for each sample in the chosen cancer type and dataset.  
 
 - The 'evaluation.py' script will compute the mean precision, recall and F1 scores and plot them.
 
