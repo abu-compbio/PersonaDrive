@@ -52,8 +52,6 @@ The personalized reference sets are constructed with respect to several relevant
 #### 3.2 Evaluations Based on Cell Line Data
 For this type of evaluations, for each available cell line we define a novel reference gene set by compiling the target genes of drugs that are found to be sensitive based on data from GDSC _(Yanget al., 2013)_ and DepMap databases for that cell line. Files are located at data/reference_sets/.
 
-#### 3.3 Evaluations Based on Enriched Pathway Overlap _EPO_
-For this type of evaluations, we find the set of enriched KEGG or Reactome pathwaysusing the g:GOSt tool (the core of g:Profiler tool) (Raudvereet al., 2019).
 
 ## **Run**
 
