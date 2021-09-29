@@ -44,7 +44,7 @@ p2      True    True   ...  False
 **Note**: we use the R [code](https://github.com/shahcompbio/drivernet/blob/master/R/getPatientOutlierMatrix.R) from Bashashati et al., (2012) to generate the set of DEGs.
 
 ### 2. PersonaDrive Framework (Prioritizing Mutated Genes)
-There are two input data for the PersonaDrive framework to prioritize mutated genes in _Bi_ network: the geneerated _.gml_ PBNs' files, and KEGG pathways data retrieved from the supplementary material of (Dinstag and Shamir, 2020). The constructed PBNs will be located at graphs/[dataset]/[cancer]/.
+There are two input data for the PersonaDrive framework to prioritize mutated genes in _Bi_ network: the geneerated _.gml_ PBNs' files, and KEGG pathways data retrieved from the supplementary material of _Dinstag and Shamir, (2020)_. The constructed PBNs will be located at graphs/[dataset]/[cancer]/.
 
 ### 3. Evaluation Framewok
 #### 3.1 Evaluations with Reference Sets Relevant for Cohort Studies
