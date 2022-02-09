@@ -23,7 +23,7 @@ g1 g2 0.9
 g3 g8 0.6
 ```
 #### 1.2. Biological pathways:
-We employ two different KEGG pathways (Kanehisa et al., 2020) for the input set
+We employ two different KEGG versions (Kanehisa et al., 2020) for the input set
 of biological pathways, the KEGG Release 101 (denoted as v1) and the KEGG pathways used in _Dinstag and Shamir (2020)_ (denoted as v2).
 The files are located at data/kegg_pathways_[version].csv
 
