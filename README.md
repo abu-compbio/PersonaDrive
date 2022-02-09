@@ -22,8 +22,18 @@ gene1 gene2 score
 g1 g2 0.9
 g3 g8 0.6
 ```
+#### 1.2. Biological pathways:
+We employ two different KEGG pathways (Kanehisa et al., 2020) for the input set
+of biological pathways, the KEGG Release 101 (denoted as v1) and the KEGG pathways used in _Dinstag and Shamir (2020)_ (denoted as v2).
+The files are located at data/kegg_pathways_[version].csv
 
-#### 1.2. Mutation Data:
+
+
+
+networks in our evaluations; STRING network v11.5, the STRING network v10.5 employed in
+_(Dinstag and Shamir, 2020)_  and the DawnRank gene interaction network of _(Hou  and  Ma,  2014)_.
+The files are located at data/[version]_network.csv
+#### 1.3. Mutation Data:
 
 The file is located at data/[cancer]/MUT.csv
 ```
@@ -32,7 +42,7 @@ g1      0   1   ... 1
 g2      1   1   ... 0
 gx      0   0   ... 1
 ```
-#### 1.3 DEGs Data:
+#### 1.4 DEGs Data:
 
 The file is located at data/[cancer]/DEGs.csv
 ```
