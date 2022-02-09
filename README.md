@@ -10,12 +10,12 @@ pip install -r requirements.txt
 
 ### 1. Personalized Bipartite Networks (PBNs)
 
-There are three input files for the Personalized Bipartite Networks' (PBNs) construction step: the Protein Protein Interaction (PPI) network edges file (DawnRank or STRING netowkrs), a binary matrix of dysregulated genes, and a binary matrix of mutated genes. Files for each cacner type are located in data folder.
+There are three input files for the Personalized Bipartite Networks' (PBNs) construction step: the Protein Protein Interaction (PPI) network edges file (STRING netowkrs (v11.5 or v10.5) orDawnRank netowrk), a binary matrix of dysregulated genes (DEGs), and a binary matrix of mutated genes (MUT). Files for each cacner type are located in data folder.
 
 #### 1.1. PPI Networks:
-We employ two different interaction networks in our evaluations; the STRING network employed in
-_(Dinstag and Shamir, 2020)_ and the DawnRank gene interaction network of _(Hou  and  Ma,  2014)_.
-The files are located at data/ppi_[version].csv
+We employ three different interaction networks in our evaluations; STRING network v11.5 _(denoted with ST11)_, the STRING network v10.5 employed in employed in
+_(Dinstag and Shamir, 2020)_ _(denoted with ST10)_ and the DawnRank gene interaction network of _(Hou  and  Ma,  2014)_ (denoted with DW).
+The files are located at data/[version]_network.csv
 
 ```
 gene1 gene2 score
@@ -25,7 +25,7 @@ g3 g8 0.6
 
 #### 1.2. Mutation Data:
 
-The file is located at data/[cancer]/mutation_data.csv
+The file is located at data/[cancer]/MUT.csv
 ```
         p1  p2  ... pn
 g1      0   1   ... 1
@@ -34,7 +34,7 @@ gx      0   0   ... 1
 ```
 #### 1.3 DEGs Data:
 
-The file is located at data/[cancer]/DEGs_data.csv
+The file is located at data/[cancer]/DEGs.csv
 ```
         g1      g2     ...  gy
 p1      False   True   ...  False
@@ -44,7 +44,7 @@ p2      True    True   ...  False
 **Note**: we use the R [code](https://github.com/shahcompbio/drivernet/blob/master/R/getPatientOutlierMatrix.R) from Bashashati et al., (2012) to generate the set of DEGs.
 
 ### 2. PersonaDrive Framework (Prioritizing Mutated Genes)
-There are two input data for the PersonaDrive framework to prioritize mutated genes in _Bi_ network: the geneerated _.gml_ PBNs' files, and KEGG pathways data retrieved from the supplementary material of _Dinstag and Shamir, (2020)_. The constructed PBNs will be located at graphs/[dataset]/[cancer]/.
+There are two input data for the PersonaDrive framework to prioritize mutated genes in _Bi_ network: the geneerated _.gml_ PBNs' files, and KEGG pathways data retrieved from the supplementary material of _Dinstag and Shamir, (2020)_. The constructed PBNs will be located at graphs/[dataset]/[cancer]_[network]/.
 
 ### 3. Evaluation Framewok
 #### 3.1 Evaluations with Reference Sets Relevant for Cohort Studies
@@ -61,19 +61,19 @@ For more details on the execution parameters please refer to the python files.
 1. Constructing PBNs:
 
 ```
-python constructing_PBNs.py -d TCGA -c COAD
+python constructing_PBNs.py -d TCGA -c COAD -n ST11
 ```
 
 1. Rank Mutated Genes:
 
 ```
-python PersonDrive.py -d TCGA -c COAD
+python PersonDrive.py -d TCGA -c COAD -n ST11
 ```
 
 2. Evaluation
 
 ```
-python evaluation.py -d TCGA -c COAD
+python evaluation.py -d TCGA -c COAD -n ST11
 ```
 
 

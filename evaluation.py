@@ -107,10 +107,8 @@ class evaluation:
         methods_f1_results = {}
 
         #progress bar
-        pbar = tqdm(total=len(methods))
+        for method in tqdm(methods):
 
-        for method in methods:
-            pbar.update(1)
             #get method name
             method_name = method.split('/')[-1]
 
