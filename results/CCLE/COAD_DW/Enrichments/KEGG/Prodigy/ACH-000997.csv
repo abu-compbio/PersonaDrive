@@ -1,0 +1,6 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA04979,Cholesterol metabolism,0.00043687635427956645,True,Cholesterol metabolism,19,16,4,2299,0.25,0.21052631578947367,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA04922,Glucagon signaling pathway,0.007680269927891686,True,Glucagon signaling pathway,38,16,4,2299,0.25,0.10526315789473684,query_1,[]
+2,kegg_pathways_v1,KEGG:HSA05016,Huntington disease,0.014077485988302635,True,Huntington disease,84,16,5,2299,0.3125,0.05952380952380952,query_1,[]
+3,kegg_pathways_v1,KEGG:HSA05211,Renal cell carcinoma,0.02611641049364467,True,Renal cell carcinoma,21,16,3,2299,0.1875,0.14285714285714285,query_1,[]
+4,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.036570612577103145,True,Pathways in cancer,161,16,6,2299,0.375,0.037267080745341616,query_1,[]

@@ -1,0 +1,12 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,1.61187538565876e-07,True,Pathways in cancer,92,20,14,1176,0.7,0.15217391304347827,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA05206,MicroRNAs in cancer,3.090853183007623e-05,True,MicroRNAs in cancer,34,20,9,1176,0.45,0.2647058823529412,query_1,[]
+2,kegg_pathways_v1,KEGG:HSA05163,Human cytomegalovirus infection,4.1248479828299735e-05,True,Human cytomegalovirus infection,35,20,9,1176,0.45,0.2571428571428571,query_1,[]
+3,kegg_pathways_v1,KEGG:HSA05167,Kaposi sarcoma-associated herpesvirus infection,0.00018372524789439927,True,Kaposi sarcoma-associated herpesvirus infection,28,20,8,1176,0.4,0.2857142857142857,query_1,[]
+4,kegg_pathways_v1,KEGG:HSA05161,Hepatitis B,0.0018723866312129744,True,Hepatitis B,24,20,7,1176,0.35,0.2916666666666667,query_1,[]
+5,kegg_pathways_v1,KEGG:HSA05203,Viral carcinogenesis,0.0025749716770522854,True,Viral carcinogenesis,25,20,7,1176,0.35,0.28,query_1,[]
+6,kegg_pathways_v1,KEGG:HSA05215,Prostate cancer,0.0059018618338309604,True,Prostate cancer,17,20,6,1176,0.3,0.35294117647058826,query_1,[]
+7,kegg_pathways_v1,KEGG:HSA05160,Hepatitis C,0.012673046559693132,True,Hepatitis C,19,20,6,1176,0.3,0.3157894736842105,query_1,[]
+8,kegg_pathways_v1,KEGG:HSA05222,Small cell lung cancer,0.012673046559693132,True,Small cell lung cancer,19,20,6,1176,0.3,0.3157894736842105,query_1,[]
+9,kegg_pathways_v1,KEGG:HSA05207,Chemical carcinogenesis - receptor activation,0.032622026931923634,True,Chemical carcinogenesis - receptor activation,35,20,7,1176,0.35,0.2,query_1,[]
+10,kegg_pathways_v1,KEGG:HSA05417,Lipid and atherosclerosis,0.040095558526342216,True,Lipid and atherosclerosis,36,20,7,1176,0.35,0.19444444444444445,query_1,[]

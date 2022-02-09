@@ -1,0 +1,8 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-4420097,VEGFA-VEGFR2 Pathway,0.0004474154186434792,True,VEGFA-VEGFR2 Pathway,21,20,6,2324,0.3,0.2857142857142857,query_1,['REAC:R-HSA-194138']
+1,REAC,REAC:R-HSA-194138,Signaling by VEGF,0.0006119985721042527,True,Signaling by VEGF,22,20,6,2324,0.3,0.2727272727272727,query_1,['REAC:R-HSA-9006934']
+2,REAC,REAC:R-HSA-168256,Immune System,0.0015220863500191102,True,Immune System,224,20,12,2324,0.6,0.05357142857142857,query_1,['REAC:0000000']
+3,REAC,REAC:R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,0.011129711478321204,True,Signaling by Receptor Tyrosine Kinases,86,20,8,2324,0.4,0.09302325581395349,query_1,['REAC:R-HSA-162582']
+4,REAC,REAC:R-HSA-5621481,C-type lectin receptors (CLRs),0.014855303172125342,True,C-type lectin receptors (CLRs),19,20,5,2324,0.25,0.2631578947368421,query_1,['REAC:R-HSA-168249']
+5,REAC,REAC:R-HSA-5218920,VEGFR2 mediated vascular permeability,0.024490976855474782,True,VEGFR2 mediated vascular permeability,9,20,4,2324,0.2,0.4444444444444444,query_1,['REAC:R-HSA-4420097']
+6,REAC,REAC:R-HSA-162582,Signal Transduction,0.03446322094136763,True,Signal Transduction,361,20,13,2324,0.65,0.036011080332409975,query_1,['REAC:0000000']

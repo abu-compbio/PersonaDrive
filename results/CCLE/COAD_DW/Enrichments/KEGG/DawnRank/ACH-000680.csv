@@ -1,0 +1,3 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.016707346242654356,True,Pathways in cancer,15,18,9,184,0.5,0.6,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA05210,Colorectal cancer,0.018699485128376464,True,Colorectal cancer,6,18,6,184,0.3333333333333333,1.0,query_1,[]

@@ -11,13 +11,14 @@ from matplotlib.ticker import MaxNLocator
 from Data import *
 class Data:
 
-    def __init__(self, cancer,dataset,netowrk):
+    def __init__(self, cancer,dataset,netowrk,mut_ppi_filter=True):
 
         print("---- Data ----")
         print("A) LOAD Data")
         self.cancer=cancer
         self.dataset=dataset
         self.netowrk=netowrk
+        self.mut_ppi_filter=mut_ppi_filter
         #ppi networks
         if "COAD" in self.cancer:
             self.cancer_="COAD"
@@ -33,15 +34,16 @@ class Data:
         ppi_network = networks[netowrk]
         #load the ppi network
         self.ppi_network=self.load_PPI(ppi_network)
-        self.mut_dic=self.load_mutation_data(self.cancer,self.dataset,self.ppi_network)
+        self.mut_dic=self.load_mutation_data(self.cancer,self.dataset,self.ppi_network,self.mut_ppi_filter)
 
     ##construct mutation dictionary
-    def load_mutation_data(self,cancer,dataset,ppi):
+    def load_mutation_data(self,cancer,dataset,ppi,filter=True):
 
         mutation_matrix = pd.read_csv("data/"+cancer.split("_")[0]+"_"+dataset+"/MUT.csv", index_col=0,sep=",")
 
         # filter mutation matrix to contain only mutated genes exist in the PPI netowrk
-        mutation_matrix=mutation_matrix.drop(index=[g for g in mutation_matrix.index if g not in ppi])
+        if filter:
+            mutation_matrix=mutation_matrix.drop(index=[g for g in mutation_matrix.index if g not in ppi])
 
         #get sample IDs
         samples = mutation_matrix.columns.tolist()

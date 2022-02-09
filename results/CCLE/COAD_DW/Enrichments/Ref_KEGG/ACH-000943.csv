@@ -1,0 +1,4 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA04080,Neuroactive ligand-receptor interaction,7.352229393394639e-07,True,Neuroactive ligand-receptor interaction,48,100,21,1176,0.21,0.4375,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA04024,cAMP signaling pathway,0.006630887913892493,True,cAMP signaling pathway,44,100,16,1176,0.16,0.36363636363636365,query_1,[]
+2,kegg_pathways_v1,KEGG:HSA05223,Non-small cell lung cancer,0.04114243592759529,True,Non-small cell lung cancer,9,100,7,1176,0.07,0.7777777777777778,query_1,[]

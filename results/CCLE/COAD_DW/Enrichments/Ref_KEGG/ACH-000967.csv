@@ -1,0 +1,11 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05033,Nicotine addiction,5.615764822218484e-06,True,Nicotine addiction,9,90,9,1100,0.1,1.0,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA04020,Calcium signaling pathway,1.5225186547607103e-05,True,Calcium signaling pathway,57,90,21,1100,0.23333333333333334,0.3684210526315789,query_1,[]
+2,kegg_pathways_v1,KEGG:HSA04010,MAPK signaling pathway,0.0005512034915840521,True,MAPK signaling pathway,50,90,18,1100,0.2,0.36,query_1,[]
+3,kegg_pathways_v1,KEGG:HSA04024,cAMP signaling pathway,0.0005512034915840521,True,cAMP signaling pathway,50,90,18,1100,0.2,0.36,query_1,[]
+4,kegg_pathways_v1,KEGG:HSA05020,Prion disease,0.001676272907168256,True,Prion disease,37,90,15,1100,0.16666666666666666,0.40540540540540543,query_1,[]
+5,kegg_pathways_v1,KEGG:HSA05031,Amphetamine addiction,0.003044805005097847,True,Amphetamine addiction,13,90,9,1100,0.1,0.6923076923076923,query_1,[]
+6,kegg_pathways_v1,KEGG:HSA05207,Chemical carcinogenesis - receptor activation,0.009595833525231311,True,Chemical carcinogenesis - receptor activation,31,90,13,1100,0.14444444444444443,0.41935483870967744,query_1,[]
+7,kegg_pathways_v1,KEGG:HSA04723,Retrograde endocannabinoid signaling,0.01049586698529906,True,Retrograde endocannabinoid signaling,18,90,10,1100,0.1111111111111111,0.5555555555555556,query_1,[]
+8,kegg_pathways_v1,KEGG:HSA04260,Cardiac muscle contraction,0.018559430884179245,True,Cardiac muscle contraction,15,90,9,1100,0.1,0.6,query_1,[]
+9,kegg_pathways_v1,KEGG:HSA04080,Neuroactive ligand-receptor interaction,0.027424807175722102,True,Neuroactive ligand-receptor interaction,50,90,16,1100,0.17777777777777778,0.32,query_1,[]

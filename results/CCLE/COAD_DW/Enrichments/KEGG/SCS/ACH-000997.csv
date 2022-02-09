@@ -1,0 +1,2 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05224,Breast cancer,0.029328586731818117,True,Breast cancer,47,18,4,2299,0.2222222222222222,0.0851063829787234,query_1,[]

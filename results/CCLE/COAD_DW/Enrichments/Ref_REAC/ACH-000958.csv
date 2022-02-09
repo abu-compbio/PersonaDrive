@@ -1,0 +1,8 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:0000000,REACTOME root term,1.6705938463666628e-06,True,REACTOME root term,1349,66,62,2324,0.9393939393939394,0.04595997034840623,query_1,[]
+1,REAC,REAC:R-HSA-162582,Signal Transduction,0.00022943311977392211,True,Signal Transduction,361,66,30,2324,0.45454545454545453,0.08310249307479224,query_1,['REAC:0000000']
+2,REAC,REAC:R-HSA-1643685,Disease,0.0002863774578135226,True,Disease,216,66,23,2324,0.3484848484848485,0.10648148148148148,query_1,['REAC:0000000']
+3,REAC,REAC:R-HSA-3108232,SUMO E3 ligases SUMOylate target proteins,0.01032060879199552,True,SUMO E3 ligases SUMOylate target proteins,34,66,9,2324,0.13636363636363635,0.2647058823529412,query_1,['REAC:R-HSA-2990846']
+4,REAC,REAC:R-HSA-2990846,SUMOylation,0.013584097124533949,True,SUMOylation,35,66,9,2324,0.13636363636363635,0.2571428571428571,query_1,['REAC:R-HSA-597592']
+5,REAC,REAC:R-HSA-5633007,Regulation of TP53 Activity,0.014343343757219481,True,Regulation of TP53 Activity,26,66,8,2324,0.12121212121212122,0.3076923076923077,query_1,['REAC:R-HSA-3700989']
+6,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.047186349238247334,True,Diseases of signal transduction by growth factor receptors and second messengers,64,66,11,2324,0.16666666666666666,0.171875,query_1,['REAC:R-HSA-1643685']

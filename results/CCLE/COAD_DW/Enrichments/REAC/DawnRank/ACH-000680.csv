@@ -1,0 +1,5 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,0.0018140503352850725,True,Signaling by Receptor Tyrosine Kinases,15,20,8,410,0.4,0.5333333333333333,query_1,['REAC:R-HSA-162582']
+1,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.007244731133529417,True,Diseases of signal transduction by growth factor receptors and second messengers,12,20,7,410,0.35,0.5833333333333334,query_1,['REAC:R-HSA-1643685']
+2,REAC,REAC:R-HSA-1643685,Disease,0.020777832604265446,True,Disease,34,20,10,410,0.5,0.29411764705882354,query_1,['REAC:0000000']
+3,REAC,REAC:R-HSA-5688426,Deubiquitination,0.047845723672012494,True,Deubiquitination,6,20,5,410,0.25,0.8333333333333334,query_1,['REAC:R-HSA-597592']

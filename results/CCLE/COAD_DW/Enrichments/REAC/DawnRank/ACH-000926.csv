@@ -1,0 +1,10 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-162582,Signal Transduction,7.940563895508724e-06,True,Signal Transduction,185,20,17,986,0.85,0.0918918918918919,query_1,['REAC:0000000']
+1,REAC,REAC:R-HSA-109582,Hemostasis,0.0014245870914142953,True,Hemostasis,43,20,9,986,0.45,0.20930232558139536,query_1,['REAC:0000000']
+2,REAC,REAC:R-HSA-3000157,Laminin interactions,0.0020639514050013155,True,Laminin interactions,7,20,5,986,0.25,0.7142857142857143,query_1,['REAC:R-HSA-1474244']
+3,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,0.0021921896553149666,True,Cytokine Signaling in Immune system,45,20,9,986,0.45,0.2,query_1,['REAC:R-HSA-168256']
+4,REAC,REAC:R-HSA-449147,Signaling by Interleukins,0.0039817561034047825,True,Signaling by Interleukins,34,20,8,986,0.4,0.23529411764705882,query_1,['REAC:R-HSA-1280215']
+5,REAC,REAC:R-HSA-6785807,Interleukin-4 and Interleukin-13 signaling,0.005433668985571391,True,Interleukin-4 and Interleukin-13 signaling,8,20,5,986,0.25,0.625,query_1,['REAC:R-HSA-449147']
+6,REAC,REAC:R-HSA-4420097,VEGFA-VEGFR2 Pathway,0.01206973857675544,True,VEGFA-VEGFR2 Pathway,9,20,5,986,0.25,0.5555555555555556,query_1,['REAC:R-HSA-194138']
+7,REAC,REAC:R-HSA-194138,Signaling by VEGF,0.023831271948397355,True,Signaling by VEGF,10,20,5,986,0.25,0.5,query_1,['REAC:R-HSA-9006934']
+8,REAC,REAC:R-HSA-3000171,Non-integrin membrane-ECM interactions,0.0431325587826663,True,Non-integrin membrane-ECM interactions,11,20,5,986,0.25,0.45454545454545453,query_1,['REAC:R-HSA-1474244']

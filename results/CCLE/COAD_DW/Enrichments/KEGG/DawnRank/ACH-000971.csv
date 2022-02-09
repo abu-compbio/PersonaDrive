@@ -1,0 +1,12 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.0001805759852763203,True,Pathways in cancer,92,20,12,1115,0.6,0.13043478260869565,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA04670,Leukocyte transendothelial migration,0.0005148416724013099,True,Leukocyte transendothelial migration,30,20,8,1115,0.4,0.26666666666666666,query_1,[]
+2,kegg_pathways_v1,KEGG:HSA05206,MicroRNAs in cancer,0.0009072012479560954,True,MicroRNAs in cancer,32,20,8,1115,0.4,0.25,query_1,[]
+3,kegg_pathways_v1,KEGG:HSA05161,Hepatitis B,0.0009345153190299912,True,Hepatitis B,21,20,7,1115,0.35,0.3333333333333333,query_1,[]
+4,kegg_pathways_v1,KEGG:HSA05135,Yersinia infection,0.0013564254513501219,True,Yersinia infection,22,20,7,1115,0.35,0.3181818181818182,query_1,[]
+5,kegg_pathways_v1,KEGG:HSA04919,Thyroid hormone signaling pathway,0.001535424897236453,True,Thyroid hormone signaling pathway,34,20,8,1115,0.4,0.23529411764705882,query_1,[]
+6,kegg_pathways_v1,KEGG:HSA04935,"Growth hormone synthesis, secretion and action",0.0019708388054203866,True,"Growth hormone synthesis, secretion and action",35,20,8,1115,0.4,0.22857142857142856,query_1,[]
+7,kegg_pathways_v1,KEGG:HSA04012,ErbB signaling pathway,0.008078842335195558,True,ErbB signaling pathway,17,20,6,1115,0.3,0.35294117647058826,query_1,[]
+8,kegg_pathways_v1,KEGG:HSA04650,Natural killer cell mediated cytotoxicity,0.01198633014731344,True,Natural killer cell mediated cytotoxicity,18,20,6,1115,0.3,0.3333333333333333,query_1,[]
+9,kegg_pathways_v1,KEGG:HSA05235,PD-L1 expression and PD-1 checkpoint pathway in cancer,0.03984472409946301,True,PD-L1 expression and PD-1 checkpoint pathway in cancer,12,20,5,1115,0.25,0.4166666666666667,query_1,[]
+10,kegg_pathways_v1,KEGG:HSA05167,Kaposi sarcoma-associated herpesvirus infection,0.04610903591530681,True,Kaposi sarcoma-associated herpesvirus infection,22,20,6,1115,0.3,0.2727272727272727,query_1,[]

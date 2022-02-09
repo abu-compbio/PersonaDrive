@@ -1,0 +1,4 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-422475,Axon guidance,3.0919337473242487e-05,True,Axon guidance,101,20,10,2622,0.5,0.09900990099009901,query_1,['REAC:R-HSA-9675108']
+1,REAC,REAC:R-HSA-9675108,Nervous system development,5.534120886343667e-05,True,Nervous system development,107,20,10,2622,0.5,0.09345794392523364,query_1,['REAC:R-HSA-1266738']
+2,REAC,REAC:R-HSA-1266738,Developmental Biology,0.009209798318700073,True,Developmental Biology,180,20,10,2622,0.5,0.05555555555555555,query_1,['REAC:0000000']

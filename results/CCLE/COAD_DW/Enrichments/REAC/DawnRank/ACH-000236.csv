@@ -1,0 +1,4 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-162582,Signal Transduction,3.642555273722976e-05,True,Signal Transduction,37,20,15,229,0.75,0.40540540540540543,query_1,['REAC:0000000']
+1,REAC,REAC:R-HSA-449147,Signaling by Interleukins,0.0006488947787091566,True,Signaling by Interleukins,7,20,7,229,0.35,1.0,query_1,['REAC:R-HSA-1280215']
+2,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,0.004925169829391598,True,Cytokine Signaling in Immune system,8,20,7,229,0.35,0.875,query_1,['REAC:R-HSA-168256']

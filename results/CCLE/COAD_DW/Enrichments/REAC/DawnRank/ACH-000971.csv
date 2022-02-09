@@ -1,0 +1,12 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,2.224513546448951e-09,True,Signaling by Receptor Tyrosine Kinases,82,20,12,2597,0.6,0.14634146341463414,query_1,['REAC:R-HSA-162582']
+1,REAC,REAC:R-HSA-4420097,VEGFA-VEGFR2 Pathway,2.7022201444403474e-06,True,VEGFA-VEGFR2 Pathway,21,20,7,2597,0.35,0.3333333333333333,query_1,['REAC:R-HSA-194138']
+2,REAC,REAC:R-HSA-194138,Signaling by VEGF,7.937139624791332e-06,True,Signaling by VEGF,24,20,7,2597,0.35,0.2916666666666667,query_1,['REAC:R-HSA-9006934']
+3,REAC,REAC:R-HSA-162582,Signal Transduction,9.881178420019413e-06,True,Signal Transduction,399,20,16,2597,0.8,0.040100250626566414,query_1,['REAC:0000000']
+4,REAC,REAC:R-HSA-186763,Downstream signal transduction,0.0006373997872916877,True,Downstream signal transduction,5,20,4,2597,0.2,0.8,query_1,['REAC:R-HSA-186797']
+5,REAC,REAC:R-HSA-195258,RHO GTPase Effectors,0.0017631274918745896,True,RHO GTPase Effectors,49,20,7,2597,0.35,0.14285714285714285,query_1,['REAC:R-HSA-194315']
+6,REAC,REAC:R-HSA-1500931,Cell-Cell communication,0.0019524689043883404,True,Cell-Cell communication,29,20,6,2597,0.3,0.20689655172413793,query_1,['REAC:0000000']
+7,REAC,REAC:R-HSA-109582,Hemostasis,0.0019532703164276033,True,Hemostasis,111,20,9,2597,0.45,0.08108108108108109,query_1,['REAC:0000000']
+8,REAC,REAC:R-HSA-168256,Immune System,0.00300010578929605,True,Immune System,265,20,12,2597,0.6,0.045283018867924525,query_1,['REAC:0000000']
+9,REAC,REAC:R-HSA-1433557,Signaling by SCF-KIT,0.0087920679610904,True,Signaling by SCF-KIT,8,20,4,2597,0.2,0.5,query_1,['REAC:R-HSA-9006934']
+10,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.02025324787426234,True,Diseases of signal transduction by growth factor receptors and second messengers,69,20,7,2597,0.35,0.10144927536231885,query_1,['REAC:R-HSA-1643685']

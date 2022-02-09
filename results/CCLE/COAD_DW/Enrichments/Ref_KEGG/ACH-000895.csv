@@ -1,0 +1,2 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA04010,MAPK signaling pathway,0.03641821341863665,True,MAPK signaling pathway,22,60,12,503,0.2,0.5454545454545454,query_1,[]

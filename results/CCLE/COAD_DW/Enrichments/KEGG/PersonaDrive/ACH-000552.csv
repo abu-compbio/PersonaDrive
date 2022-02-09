@@ -1,0 +1,6 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,9.917309894728755e-05,True,Pathways in cancer,12,19,10,163,0.5263157894736842,0.8333333333333334,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA04151,PI3K-Akt signaling pathway,0.0030699115107400902,True,PI3K-Akt signaling pathway,9,19,8,163,0.42105263157894735,0.8888888888888888,query_1,[]
+2,kegg_pathways_v1,KEGG:HSA05226,Gastric cancer,0.004732878113344486,True,Gastric cancer,7,19,7,163,0.3684210526315789,1.0,query_1,[]
+3,kegg_pathways_v1,KEGG:HSA05161,Hepatitis B,0.014376473787043268,True,Hepatitis B,10,19,8,163,0.42105263157894735,0.8,query_1,[]
+4,kegg_pathways_v1,KEGG:HSA05165,Human papillomavirus infection,0.049355381047066035,True,Human papillomavirus infection,11,19,8,163,0.42105263157894735,0.7272727272727273,query_1,[]

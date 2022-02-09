@@ -1,0 +1,11 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-162582,Signal Transduction,1.8777928250415226e-06,True,Signal Transduction,197,20,17,1148,0.85,0.08629441624365482,query_1,['REAC:0000000']
+1,REAC,REAC:R-HSA-109582,Hemostasis,0.0003792235984141816,True,Hemostasis,43,20,9,1148,0.45,0.20930232558139536,query_1,['REAC:0000000']
+2,REAC,REAC:R-HSA-8939211,ESR-mediated signaling,0.0009841687613253323,True,ESR-mediated signaling,13,20,6,1148,0.3,0.46153846153846156,query_1,['REAC:R-HSA-9006931']
+3,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,0.0020014651113568695,True,Cytokine Signaling in Immune system,36,20,8,1148,0.4,0.2222222222222222,query_1,['REAC:R-HSA-168256']
+4,REAC,REAC:R-HSA-449147,Signaling by Interleukins,0.0022082355673700015,True,Signaling by Interleukins,24,20,7,1148,0.35,0.2916666666666667,query_1,['REAC:R-HSA-1280215']
+5,REAC,REAC:R-HSA-6785807,Interleukin-4 and Interleukin-13 signaling,0.005674518363649418,True,Interleukin-4 and Interleukin-13 signaling,9,20,5,1148,0.25,0.5555555555555556,query_1,['REAC:R-HSA-449147']
+6,REAC,REAC:R-HSA-76002,"Platelet activation, signaling and aggregation",0.010096543759063582,True,"Platelet activation, signaling and aggregation",18,20,6,1148,0.3,0.3333333333333333,query_1,['REAC:R-HSA-109582']
+7,REAC,REAC:R-HSA-9006931,Signaling by Nuclear Receptors,0.010096543759063582,True,Signaling by Nuclear Receptors,18,20,6,1148,0.3,0.3333333333333333,query_1,['REAC:R-HSA-162582']
+8,REAC,REAC:R-HSA-6806834,Signaling by MET,0.02035309492763608,True,Signaling by MET,11,20,5,1148,0.25,0.45454545454545453,query_1,['REAC:R-HSA-9006934']
+9,REAC,REAC:R-HSA-168256,Immune System,0.02271457368632422,True,Immune System,114,20,11,1148,0.55,0.09649122807017543,query_1,['REAC:0000000']

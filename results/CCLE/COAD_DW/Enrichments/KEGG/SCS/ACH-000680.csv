@@ -1,0 +1,2 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.0002531302518659352,True,Pathways in cancer,15,17,10,184,0.5882352941176471,0.6666666666666666,query_1,[]

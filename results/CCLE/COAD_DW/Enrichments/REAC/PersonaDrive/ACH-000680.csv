@@ -1,0 +1,5 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,0.008033238672823894,True,Cytokine Signaling in Immune system,8,20,6,410,0.3,0.75,query_1,['REAC:R-HSA-168256']
+1,REAC,REAC:R-HSA-449147,Signaling by Interleukins,0.008033238672823894,True,Signaling by Interleukins,8,20,6,410,0.3,0.75,query_1,['REAC:R-HSA-1280215']
+2,REAC,REAC:R-HSA-168256,Immune System,0.038371213268988597,True,Immune System,36,20,10,410,0.5,0.2777777777777778,query_1,['REAC:0000000']
+3,REAC,REAC:R-HSA-5688426,Deubiquitination,0.047845723672012494,True,Deubiquitination,6,20,5,410,0.25,0.8333333333333334,query_1,['REAC:R-HSA-597592']

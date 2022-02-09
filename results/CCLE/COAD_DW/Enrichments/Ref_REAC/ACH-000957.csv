@@ -1,0 +1,8 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,REAC,REAC:0000000,REACTOME root term,2.192058863092302e-06,True,REACTOME root term,1095,60,56,1984,0.9333333333333333,0.05114155251141553,query_1,[]
+1,REAC,REAC:R-HSA-162582,Signal Transduction,1.7512048417086225e-05,True,Signal Transduction,314,60,30,1984,0.5,0.09554140127388536,query_1,['REAC:0000000']
+2,REAC,REAC:R-HSA-1643685,Disease,3.665669135525931e-05,True,Disease,170,60,22,1984,0.36666666666666664,0.12941176470588237,query_1,['REAC:0000000']
+3,REAC,REAC:R-HSA-422475,Axon guidance,0.0005036910426314699,True,Axon guidance,61,60,13,1984,0.21666666666666667,0.21311475409836064,query_1,['REAC:R-HSA-9675108']
+4,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.0006061783098287035,True,Diseases of signal transduction by growth factor receptors and second messengers,51,60,12,1984,0.2,0.23529411764705882,query_1,['REAC:R-HSA-1643685']
+5,REAC,REAC:R-HSA-9675108,Nervous system development,0.001697482368532859,True,Nervous system development,67,60,13,1984,0.21666666666666667,0.19402985074626866,query_1,['REAC:R-HSA-1266738']
+6,REAC,REAC:R-HSA-112316,Neuronal System,0.00640069916313846,True,Neuronal System,62,60,12,1984,0.2,0.1935483870967742,query_1,['REAC:0000000']

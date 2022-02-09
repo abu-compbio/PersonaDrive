@@ -1,0 +1,3 @@
+,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
+0,kegg_pathways_v1,KEGG:HSA05165,Human papillomavirus infection,0.004865833649352533,True,Human papillomavirus infection,9,19,8,154,0.42105263157894735,0.8888888888888888,query_1,[]
+1,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.007916088603493528,True,Pathways in cancer,12,19,9,154,0.47368421052631576,0.75,query_1,[]
