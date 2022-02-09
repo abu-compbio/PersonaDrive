@@ -1,6 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05230,Central carbon metabolism in cancer,0.0004030425926264183,True,Central carbon metabolism in cancer,15,55,9,1016,0.16363636363636364,0.6,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA05215,Prostate cancer,0.0018571289467728823,True,Prostate cancer,22,55,10,1016,0.18181818181818182,0.45454545454545453,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA05235,PD-L1 expression and PD-1 checkpoint pathway in cancer,0.010630693199216093,True,PD-L1 expression and PD-1 checkpoint pathway in cancer,15,55,8,1016,0.14545454545454545,0.5333333333333333,query_1,[]
-3,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.01841146291859024,True,Pathways in cancer,93,55,18,1016,0.32727272727272727,0.1935483870967742,query_1,[]
-4,kegg_pathways_v1,KEGG:HSA04066,HIF-1 signaling pathway,0.019655449712628732,True,HIF-1 signaling pathway,27,55,10,1016,0.18181818181818182,0.37037037037037035,query_1,[]

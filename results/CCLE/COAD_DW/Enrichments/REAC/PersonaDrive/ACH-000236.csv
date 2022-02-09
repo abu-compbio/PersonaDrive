@@ -1,3 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-162582,Signal Transduction,3.642555273722976e-05,True,Signal Transduction,37,20,15,229,0.75,0.40540540540540543,query_1,['REAC:0000000']
-1,REAC,REAC:R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,0.0001034780634218714,True,Signaling by Receptor Tyrosine Kinases,11,20,9,229,0.45,0.8181818181818182,query_1,['REAC:R-HSA-162582']

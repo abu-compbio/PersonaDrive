@@ -1,2 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-162582,Signal Transduction,8.08056228900699e-05,True,Signal Transduction,68,20,16,357,0.8,0.23529411764705882,query_1,['REAC:0000000']

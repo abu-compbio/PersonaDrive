@@ -1,4 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-1643685,Disease,9.821588825104007e-05,True,Disease,253,20,13,2622,0.65,0.05138339920948617,query_1,['REAC:0000000']
-1,REAC,REAC:R-HSA-162582,Signal Transduction,0.030872498094085012,True,Signal Transduction,403,20,13,2622,0.65,0.03225806451612903,query_1,['REAC:0000000']
-2,REAC,REAC:R-HSA-5663205,Infectious disease,0.03547882953679623,True,Infectious disease,112,20,8,2622,0.4,0.07142857142857142,query_1,['REAC:R-HSA-1643685']

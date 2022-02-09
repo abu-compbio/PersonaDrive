@@ -1,9 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05145,Toxoplasmosis,2.500625153048091e-06,True,Toxoplasmosis,7,20,7,503,0.35,1.0,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,3.4341475850201395e-06,True,Pathways in cancer,52,20,14,503,0.7,0.2692307692307692,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA05222,Small cell lung cancer,2.9729221086819495e-05,True,Small cell lung cancer,12,20,8,503,0.4,0.6666666666666666,query_1,[]
-3,kegg_pathways_v1,KEGG:HSA05167,Kaposi sarcoma-associated herpesvirus infection,7.562003779902479e-05,True,Kaposi sarcoma-associated herpesvirus infection,13,20,8,503,0.4,0.6153846153846154,query_1,[]
-4,kegg_pathways_v1,KEGG:HSA04151,PI3K-Akt signaling pathway,0.00021655702956236203,True,PI3K-Akt signaling pathway,27,20,10,503,0.5,0.37037037037037035,query_1,[]
-5,kegg_pathways_v1,KEGG:HSA05165,Human papillomavirus infection,0.00027991885483328395,True,Human papillomavirus infection,36,20,11,503,0.55,0.3055555555555556,query_1,[]
-6,kegg_pathways_v1,KEGG:HSA05146,Amoebiasis,0.0037315884358713695,True,Amoebiasis,13,20,7,503,0.35,0.5384615384615384,query_1,[]
-7,kegg_pathways_v1,KEGG:HSA04510,Focal adhesion,0.010020843609933864,True,Focal adhesion,21,20,8,503,0.4,0.38095238095238093,query_1,[]

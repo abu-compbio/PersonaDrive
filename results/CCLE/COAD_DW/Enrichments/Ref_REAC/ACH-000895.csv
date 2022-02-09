@@ -1,2 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:0000000,REACTOME root term,1.025539086361008e-05,True,REACTOME root term,684,69,64,1148,0.927536231884058,0.0935672514619883,query_1,[]

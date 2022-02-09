@@ -1,3 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05160,Hepatitis C,0.015920054528708025,True,Hepatitis C,7,18,7,129,0.3888888888888889,1.0,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA05167,Kaposi sarcoma-associated herpesvirus infection,0.015920054528708025,True,Kaposi sarcoma-associated herpesvirus infection,7,18,7,129,0.3888888888888889,1.0,query_1,[]

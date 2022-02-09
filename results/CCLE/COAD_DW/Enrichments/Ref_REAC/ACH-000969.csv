@@ -1,4 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-1643685,Disease,0.0026442115507407677,True,Disease,234,19,11,2762,0.5789473684210527,0.04700854700854701,query_1,['REAC:0000000']
-1,REAC,REAC:R-HSA-6804757,Regulation of TP53 Degradation,0.009874469709836579,True,Regulation of TP53 Degradation,9,19,4,2762,0.21052631578947367,0.4444444444444444,query_1,['REAC:R-HSA-6806003']
-2,REAC,REAC:R-HSA-6806003,Regulation of TP53 Expression and Degradation,0.016385800782023233,True,Regulation of TP53 Expression and Degradation,10,19,4,2762,0.21052631578947367,0.4,query_1,['REAC:R-HSA-5633007']

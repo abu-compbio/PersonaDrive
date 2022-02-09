@@ -1,4 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-212436,Generic Transcription Pathway,0.00036422644742743234,True,Generic Transcription Pathway,250,20,11,3833,0.55,0.044,query_1,['REAC:R-HSA-73857']
-1,REAC,REAC:R-HSA-73857,RNA Polymerase II Transcription,0.0010814692624879034,True,RNA Polymerase II Transcription,277,20,11,3833,0.55,0.039711191335740074,query_1,['REAC:R-HSA-74160']
-2,REAC,REAC:R-HSA-74160,Gene expression (Transcription),0.0037780440279242228,True,Gene expression (Transcription),312,20,11,3833,0.55,0.035256410256410256,query_1,['REAC:0000000']

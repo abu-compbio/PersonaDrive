@@ -1,5 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,1.953910657589573e-06,True,Pathways in cancer,17,19,13,147,0.6842105263157895,0.7647058823529411,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA05165,Human papillomavirus infection,0.0010540743198826361,True,Human papillomavirus infection,16,19,11,147,0.5789473684210527,0.6875,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA05205,Proteoglycans in cancer,0.007097437992314279,True,Proteoglycans in cancer,9,19,8,147,0.42105263157894735,0.8888888888888888,query_1,[]
-3,kegg_pathways_v1,KEGG:HSA04151,PI3K-Akt signaling pathway,0.03297712366349322,True,PI3K-Akt signaling pathway,10,19,8,147,0.42105263157894735,0.8,query_1,[]

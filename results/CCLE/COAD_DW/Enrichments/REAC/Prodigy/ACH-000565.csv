@@ -1,3 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-162582,Signal Transduction,0.0001846493988036491,True,Signal Transduction,60,20,15,358,0.75,0.25,query_1,['REAC:0000000']
-1,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.018691131650418236,True,Diseases of signal transduction by growth factor receptors and second messengers,17,20,8,358,0.4,0.47058823529411764,query_1,['REAC:R-HSA-1643685']

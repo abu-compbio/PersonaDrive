@@ -1,7 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05010,Alzheimer disease,0.004818778122991477,True,Alzheimer disease,8,19,8,119,0.42105263157894735,1.0,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA05165,Human papillomavirus infection,0.039548710540947926,True,Human papillomavirus infection,9,19,8,119,0.42105263157894735,0.8888888888888888,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA04550,Signaling pathways regulating pluripotency of stem cells,0.04497526248125374,True,Signaling pathways regulating pluripotency of stem cells,7,19,7,119,0.3684210526315789,1.0,query_1,[]
-3,kegg_pathways_v1,KEGG:HSA05161,Hepatitis B,0.04497526248125374,True,Hepatitis B,7,19,7,119,0.3684210526315789,1.0,query_1,[]
-4,kegg_pathways_v1,KEGG:HSA05167,Kaposi sarcoma-associated herpesvirus infection,0.04497526248125374,True,Kaposi sarcoma-associated herpesvirus infection,7,19,7,119,0.3684210526315789,1.0,query_1,[]
-5,kegg_pathways_v1,KEGG:HSA05417,Lipid and atherosclerosis,0.04497526248125374,True,Lipid and atherosclerosis,7,19,7,119,0.3684210526315789,1.0,query_1,[]

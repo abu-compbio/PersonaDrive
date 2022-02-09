@@ -1,2 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05146,Amoebiasis,0.007318509131526546,True,Amoebiasis,22,16,6,1176,0.375,0.2727272727272727,query_1,[]

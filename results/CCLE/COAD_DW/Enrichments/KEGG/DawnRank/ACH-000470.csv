@@ -1,3 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,4.386167024299891e-06,True,Pathways in cancer,13,17,11,145,0.6470588235294118,0.8461538461538461,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA05225,Hepatocellular carcinoma,0.004212681852492642,True,Hepatocellular carcinoma,7,17,7,145,0.4117647058823529,1.0,query_1,[]

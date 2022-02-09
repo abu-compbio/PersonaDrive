@@ -1,2 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA04151,PI3K-Akt signaling pathway,0.043269544322135034,True,PI3K-Akt signaling pathway,6,14,6,119,0.42857142857142855,1.0,query_1,[]

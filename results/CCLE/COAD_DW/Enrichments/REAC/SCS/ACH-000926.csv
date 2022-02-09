@@ -1,4 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,4.779046323092624e-05,True,Cytokine Signaling in Immune system,45,19,10,986,0.5263157894736842,0.2222222222222222,query_1,['REAC:R-HSA-168256']
-1,REAC,REAC:R-HSA-168256,Immune System,0.0019561541080230054,True,Immune System,107,19,12,986,0.631578947368421,0.11214953271028037,query_1,['REAC:0000000']
-2,REAC,REAC:R-HSA-1643685,Disease,0.013105289651528094,True,Disease,100,19,11,986,0.5789473684210527,0.11,query_1,['REAC:0000000']

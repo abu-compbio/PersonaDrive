@@ -1,7 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA04510,Focal adhesion,1.4496371625899763e-05,True,Focal adhesion,11,19,10,166,0.5263157894736842,0.9090909090909091,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA04151,PI3K-Akt signaling pathway,0.00020583777865853246,True,PI3K-Akt signaling pathway,10,19,9,166,0.47368421052631576,0.9,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA05165,Human papillomavirus infection,0.0003136370968921096,True,Human papillomavirus infection,8,19,8,166,0.42105263157894735,1.0,query_1,[]
-3,kegg_pathways_v1,KEGG:HSA04015,Rap1 signaling pathway,0.031050072592318893,True,Rap1 signaling pathway,8,19,7,166,0.3684210526315789,0.875,query_1,[]
-4,kegg_pathways_v1,KEGG:HSA05206,MicroRNAs in cancer,0.031050072592318893,True,MicroRNAs in cancer,8,19,7,166,0.3684210526315789,0.875,query_1,[]
-5,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.03921274037014157,True,Pathways in cancer,18,19,10,166,0.5263157894736842,0.5555555555555556,query_1,[]

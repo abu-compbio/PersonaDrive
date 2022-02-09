@@ -1,6 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA04010,MAPK signaling pathway,2.5553441055808054e-07,True,MAPK signaling pathway,44,89,20,1115,0.2247191011235955,0.45454545454545453,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA04020,Calcium signaling pathway,3.503236436488175e-06,True,Calcium signaling pathway,60,89,22,1115,0.24719101123595505,0.36666666666666664,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA04929,GnRH secretion,0.007801137131574436,True,GnRH secretion,22,89,11,1115,0.12359550561797752,0.5,query_1,[]
-3,kegg_pathways_v1,KEGG:HSA04723,Retrograde endocannabinoid signaling,0.027223629345879755,True,Retrograde endocannabinoid signaling,29,89,12,1115,0.1348314606741573,0.41379310344827586,query_1,[]
-4,kegg_pathways_v1,KEGG:HSA04726,Serotonergic synapse,0.040290705543451086,True,Serotonergic synapse,25,89,11,1115,0.12359550561797752,0.44,query_1,[]

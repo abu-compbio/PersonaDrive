@@ -1,9 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,2.0856054744603323e-08,True,Pathways in cancer,42,20,15,440,0.75,0.35714285714285715,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA04919,Thyroid hormone signaling pathway,8.629555260030009e-05,True,Thyroid hormone signaling pathway,12,20,8,440,0.4,0.6666666666666666,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA04510,Focal adhesion,0.000694644581006181,True,Focal adhesion,20,20,9,440,0.45,0.45,query_1,[]
-3,kegg_pathways_v1,KEGG:HSA05145,Toxoplasmosis,0.0013544361611534115,True,Toxoplasmosis,7,20,6,440,0.3,0.8571428571428571,query_1,[]
-4,kegg_pathways_v1,KEGG:HSA05165,Human papillomavirus infection,0.001810136440346138,True,Human papillomavirus infection,29,20,10,440,0.5,0.3448275862068966,query_1,[]
-5,kegg_pathways_v1,KEGG:HSA05163,Human cytomegalovirus infection,0.0065543753345245525,True,Human cytomegalovirus infection,18,20,8,440,0.4,0.4444444444444444,query_1,[]
-6,kegg_pathways_v1,KEGG:HSA04151,PI3K-Akt signaling pathway,0.01103667676033643,True,PI3K-Akt signaling pathway,19,20,8,440,0.4,0.42105263157894735,query_1,[]
-7,kegg_pathways_v1,KEGG:HSA04670,Leukocyte transendothelial migration,0.015365004086076333,True,Leukocyte transendothelial migration,9,20,6,440,0.3,0.6666666666666666,query_1,[]

@@ -1,4 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-168898,Toll-like Receptor Cascades,0.030646416152311205,True,Toll-like Receptor Cascades,24,20,5,2597,0.25,0.20833333333333334,query_1,['REAC:R-HSA-168249']
-1,REAC,REAC:R-HSA-162582,Signal Transduction,0.030685591016440368,True,Signal Transduction,399,20,13,2597,0.65,0.03258145363408521,query_1,['REAC:0000000']
-2,REAC,REAC:R-HSA-168256,Immune System,0.037181367080571584,True,Immune System,265,20,11,2597,0.55,0.04150943396226415,query_1,['REAC:0000000']

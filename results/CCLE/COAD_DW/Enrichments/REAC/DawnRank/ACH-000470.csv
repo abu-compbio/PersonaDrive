@@ -1,3 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.018672758868064503,True,Diseases of signal transduction by growth factor receptors and second messengers,8,20,6,356,0.3,0.75,query_1,['REAC:R-HSA-1643685']
-1,REAC,REAC:R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,0.04019492082474767,True,Signaling by Receptor Tyrosine Kinases,13,20,7,356,0.35,0.5384615384615384,query_1,['REAC:R-HSA-162582']

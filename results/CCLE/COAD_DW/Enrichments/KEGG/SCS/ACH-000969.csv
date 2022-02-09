@@ -1,4 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,kegg_pathways_v1,KEGG:HSA05206,MicroRNAs in cancer,3.4474756433763015e-05,True,MicroRNAs in cancer,41,17,9,1159,0.5294117647058824,0.21951219512195122,query_1,[]
-1,kegg_pathways_v1,KEGG:HSA05200,Pathways in cancer,0.010525336734533533,True,Pathways in cancer,102,17,10,1159,0.5882352941176471,0.09803921568627451,query_1,[]
-2,kegg_pathways_v1,KEGG:HSA05205,Proteoglycans in cancer,0.011863984827305397,True,Proteoglycans in cancer,36,17,7,1159,0.4117647058823529,0.19444444444444445,query_1,[]

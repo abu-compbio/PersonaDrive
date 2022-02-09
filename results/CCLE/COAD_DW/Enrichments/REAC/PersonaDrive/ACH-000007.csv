@@ -1,8 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-162582,Signal Transduction,0.0001293445691623404,True,Signal Transduction,64,20,15,394,0.75,0.234375,query_1,['REAC:0000000']
-1,REAC,REAC:R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,0.0011912880926018914,True,Signaling by Receptor Tyrosine Kinases,14,20,8,394,0.4,0.5714285714285714,query_1,['REAC:R-HSA-162582']
-2,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.0024813770723782374,True,Diseases of signal transduction by growth factor receptors and second messengers,15,20,8,394,0.4,0.5333333333333333,query_1,['REAC:R-HSA-1643685']
-3,REAC,REAC:R-HSA-5684996,MAPK1/MAPK3 signaling,0.0040941306356289805,True,MAPK1/MAPK3 signaling,11,20,7,394,0.35,0.6363636363636364,query_1,['REAC:R-HSA-5683057']
-4,REAC,REAC:R-HSA-5673001,RAF/MAP kinase cascade,0.0040941306356289805,True,RAF/MAP kinase cascade,11,20,7,394,0.35,0.6363636363636364,query_1,['REAC:R-HSA-5684996']
-5,REAC,REAC:R-HSA-5683057,MAPK family signaling cascades,0.00953500577872616,True,MAPK family signaling cascades,12,20,7,394,0.35,0.5833333333333334,query_1,['REAC:R-HSA-162582']
-6,REAC,REAC:R-HSA-3000178,ECM proteoglycans,0.010050294928946215,True,ECM proteoglycans,5,20,5,394,0.25,1.0,query_1,['REAC:R-HSA-1474244']

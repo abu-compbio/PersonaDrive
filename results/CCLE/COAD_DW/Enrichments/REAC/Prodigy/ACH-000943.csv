@@ -1,5 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-1474244,Extracellular matrix organization,2.167508515850559e-05,True,Extracellular matrix organization,77,19,9,2786,0.47368421052631576,0.11688311688311688,query_1,['REAC:0000000']
-1,REAC,REAC:R-HSA-3000171,Non-integrin membrane-ECM interactions,0.007935974734334416,True,Non-integrin membrane-ECM interactions,21,19,5,2786,0.2631578947368421,0.23809523809523808,query_1,['REAC:R-HSA-1474244']
-2,REAC,REAC:R-HSA-422475,Axon guidance,0.019574692886407598,True,Axon guidance,117,19,8,2786,0.42105263157894735,0.06837606837606838,query_1,['REAC:R-HSA-9675108']
-3,REAC,REAC:R-HSA-9675108,Nervous system development,0.025454204620085265,True,Nervous system development,121,19,8,2786,0.42105263157894735,0.06611570247933884,query_1,['REAC:R-HSA-1266738']

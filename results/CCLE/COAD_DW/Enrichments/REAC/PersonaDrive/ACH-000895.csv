@@ -1,7 +1,0 @@
-,source,native,name,p_value,significant,description,term_size,query_size,intersection_size,effective_domain_size,precision,recall,query,parents
-0,REAC,REAC:R-HSA-162582,Signal Transduction,5.8658145958970255e-08,True,Signal Transduction,197,20,18,1148,0.9,0.09137055837563451,query_1,['REAC:0000000']
-1,REAC,REAC:R-HSA-449147,Signaling by Interleukins,5.454423340970384e-05,True,Signaling by Interleukins,24,20,8,1148,0.4,0.3333333333333333,query_1,['REAC:R-HSA-1280215']
-2,REAC,REAC:R-HSA-1643685,Disease,0.0013667923564556414,True,Disease,112,20,12,1148,0.6,0.10714285714285714,query_1,['REAC:0000000']
-3,REAC,REAC:R-HSA-1280215,Cytokine Signaling in Immune system,0.0020014651113568695,True,Cytokine Signaling in Immune system,36,20,8,1148,0.4,0.2222222222222222,query_1,['REAC:R-HSA-168256']
-4,REAC,REAC:R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,0.007254354353788247,True,Diseases of signal transduction by growth factor receptors and second messengers,28,20,7,1148,0.35,0.25,query_1,['REAC:R-HSA-1643685']
-5,REAC,REAC:R-HSA-6806834,Signaling by MET,0.02035309492763608,True,Signaling by MET,11,20,5,1148,0.25,0.45454545454545453,query_1,['REAC:R-HSA-9006934']
