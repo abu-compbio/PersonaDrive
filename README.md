@@ -13,8 +13,8 @@ pip install -r requirements.txt
 There are three input files for the Personalized Bipartite Networks' (PBNs) construction step: the Protein Protein Interaction (PPI) network edges file (STRING netowkrs (v11.5 or v10.5) orDawnRank netowrk), a binary matrix of dysregulated genes (DEGs), and a binary matrix of mutated genes (MUT). Files for each cacner type are located in data folder.
 
 #### 1.1. PPI Networks:
-We employ three different interaction networks in our evaluations; STRING network v11.5 _(denoted with ST11)_, the STRING network v10.5 employed in employed in
-_(Dinstag and Shamir, 2020)_ _(denoted with ST10)_ and the DawnRank gene interaction network of _(Hou  and  Ma,  2014)_ (denoted with DW).
+We employ three different interaction networks in our evaluations; STRING network v11.5, the STRING network v10.5 employed in employed in
+_(Dinstag and Shamir, 2020)_  and the DawnRank gene interaction network of _(Hou  and  Ma,  2014)_.
 The files are located at data/[version]_network.csv
 
 ```
