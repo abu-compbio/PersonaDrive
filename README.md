@@ -69,16 +69,21 @@ For more details on the execution parameters please refer to the python files.
 python constructing_PBNs.py -d TCGA -c COAD -n ST11
 ```
 
-1. Rank Mutated Genes:
+2. Rank Mutated Genes:
 
 ```
 python PersonDrive.py -d TCGA -c COAD -n ST11
 ```
 
-2. Evaluation
+3. Evaluation
 
 ```
 python evaluation.py -d TCGA -c COAD -n ST11
+```
+Enrichment analysis
+```
+$ jupyter notebook
+run KEGG_REAC_enrichment_analysis.ipynb
 ```
 
 
