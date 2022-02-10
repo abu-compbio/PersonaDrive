@@ -80,7 +80,7 @@ python PersonDrive.py -d TCGA -c COAD -n ST11
 ```
 python evaluation.py -d TCGA -c COAD -n ST11
 ```
-Enrichment analysis
+4. Enrichment Analysis
 ```
 $ jupyter notebook
 run KEGG_REAC_enrichment_analysis.ipynb
