@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ### 1. Personalized Bipartite Networks (PBNs)
 
-There are three input files for the Personalized Bipartite Networks' (PBNs) construction step: the Protein Protein Interaction (PPI) network edges file (STRING netowkrs (v11.5 or v10.5) orDawnRank netowrk), a binary matrix of dysregulated genes (DEGs), and a binary matrix of mutated genes (MUT). Files for each cacner type are located in data folder.
+There are three input files for the Personalized Bipartite Networks' (PBNs) construction step: the Protein-Protein Interaction (PPI) network edges file (STRING network (v11.5 or v10.5) or DawnRank network), a binary matrix of dysregulated genes (DEGs), and a binary matrix of mutated genes (MUT). Files for each cancer type are located in the data folder.
 
 #### 1.1. PPI Networks:
 We employ three different interaction networks in our evaluations; STRING network v11.5, the STRING network v10.5 employed in
@@ -48,17 +48,17 @@ p2      True    True   ...  False
 **Note**: we use the R [code](https://github.com/shahcompbio/drivernet/blob/master/R/getPatientOutlierMatrix.R) from Bashashati et al., (2012) to generate the set of DEGs.
 
 ### 2. PersonaDrive Framework (Prioritizing Mutated Genes)
-There are two input data for the PersonaDrive framework to prioritize mutated genes in _Bi_ network: the geneerated _.gml_ PBNs' files, and KEGG pathways data retrieved from the supplementary material of _Dinstag and Shamir, (2020)_. The constructed PBNs will be located at graphs/[dataset]/[cancer]_[network]/.
+There are two input data for the PersonaDrive framework to prioritize mutated genes in _Bi_ network: the generated _.gml_ PBNs' files, and KEGG pathways data retrieved from the supplementary material of _Dinstag and Shamir, (2020)_. The constructed PBNs will be located at graphs/[dataset]/[cancer]_[network]/.
 
 ### 3. Evaluation Framewok
 #### 3.1 Evaluations with Reference Sets Relevant for Cohort Studies
 The personalized reference sets are constructed with respect to several relevant reference sets of known cancer genes: Cancer Gene Census (CGC), Network of Cancer Genes (NCG), and CancerMine. Files are located at data/reference_sets/.
 
 #### 3.2 Evaluations Based on Cell Line Data
-For this type of evaluations, for each available cell line we define a novel reference gene set by compiling the target genes of drugs that are found to be sensitive based on data from GDSC _(Yanget al., 2013)_ and DepMap databases for that cell line. Files are located at data/reference_sets/.
+For this type of evaluation, for each available cell line, we define a novel reference gene set by compiling the target genes of drugs that are found to be sensitive based on data from GDSC _(Yanget al., 2013)_ and DepMap databases for that cell line. Files are located at data/reference_sets/.
 
 #### 3.3 Evaluations Based on Enrichment Analysis
-For this type of evaluations, we evaluate the methods based on KEGG and Reactome (Fabregat et al., 2018) enrichment analysis by checking the amounts of overlaps between the pathways enriched signiﬁcantly in the genes output by some personalized prioritization method and those that are enriched in cell line reference sets constructed from drug sensitivity data.
+For this type of evaluation, we evaluate the methods based on KEGG and Reactome (Fabregat et al., 2018) enrichment analysis by checking the amounts of overlaps between the pathways enriched signiﬁcantly in the genes output by some personalized prioritization method and those that are enriched in cell line reference sets constructed from drug sensitivity data.
 ## **Run**
 
 For more details on the execution parameters please refer to the python files.
@@ -95,4 +95,4 @@ run KEGG_REAC_enrichment_analysis.ipynb
 - The 'evaluation.py' script will compute the mean precision, recall and F1 scores and plot them.
 
 ## **Data Availability**
-The used dataset is available from the authors upon request (aissa.houdjedj@antalya.edu.tr).
+The data underlying this article can be accessed at: https://doi.org/10.5281/zenodo.6520187
